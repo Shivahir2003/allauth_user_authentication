@@ -7,6 +7,10 @@
 </head>
 <body>
     <h1>{{user}}</h1>
+        <ul>
+            <li>{{user.username}}</li>
+            <li>{{user.email}}</li>
+        </ul>
     <button>
         <a href="{% url 'account_logout' %}">logout</a>
     </button>
